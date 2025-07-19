@@ -1,7 +1,7 @@
 # 🎬 Metacritic Movie Genre Analysis: Comedy vs Horror
 
 <p align="center">
-  <img src="plots/metacritic_header.png" alt="Movie Poster Collage" width="80%">
+  <img src="plots/metacritic_header.png" alt="Movie Poster Collage" width="30%">
 </p>
 
 [![R](https://img.shields.io/badge/R-4.3.1-blue.svg)](https://www.r-project.org/)  
@@ -54,7 +54,10 @@ This project explores and compares **Comedy** and **Horror** movie genres using 
 - **Horror** average: ~51  
 - **T-test** confirmed significant difference.
 
-![Metascore Boxplot](plots/metascore_comparison_all.png)
+<p align="center">
+  <img src="plots/metascore_comparison_all.png" alt="Metascore Boxplot" width="600"/>
+</p>
+
 
 ---
 
@@ -63,10 +66,15 @@ This project explores and compares **Comedy** and **Horror** movie genres using 
 - **Comedy Top Words**: life, love, wedding, quirky, ensemble  
 - **Horror Top Words**: escape, killer, dark, infected, occult
 
-![Wordcloud Comedy](plots/wordcloud2_comedy_all.png)
-![Wordcloud Horror](plots/wordcloud2_horror_all.png)
+<p align="center">
+  <img src="plots/wordcloud2_comedy_all.png" alt="Wordcloud Comedy" width="400"/>
+  <img src="plots/wordcloud2_horror_all.png" alt="Wordcloud Horror" width="400"/>
+</p>
 
-![TF-IDF](plots/tfidf_words_all.png)
+<p align="center">
+  <img src="plots/tfidf_words_all.png" alt="TF-IDF" width="600"/>
+</p>
+
 
 ---
 
@@ -74,7 +82,9 @@ This project explores and compares **Comedy** and **Horror** movie genres using 
 
 - Both genres skew **negative**, but Horror has more negative value 
 
-![NRC Sentiment Comparison](plots/bing_sentiment_all.png)
+<p align="center">
+  <img src="plots/bing_sentiment_all.png" alt="NRC Sentiment Comparison" width="600"/>
+</p>
 
 ---
 
