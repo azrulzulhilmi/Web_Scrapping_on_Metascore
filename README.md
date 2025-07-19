@@ -87,5 +87,17 @@ This project explores and compares **Comedy** and **Horror** movie genres using 
 
 ---
 
-## 📂 Folder Structure
+📂For more plots and visualizations, please see the [plots folder](./plots).
+
+---
+
+## 👨‍🎓 Author 
+
+**Author:** Azrul Zulhilmi Ahmad Rosli
+
+## License
+
+This project is for academic purposes. Data source: [Metacritic -Movie Reviews](https://www.metacritic.com/).
+
+---
 
