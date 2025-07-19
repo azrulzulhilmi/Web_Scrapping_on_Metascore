@@ -1,7 +1,7 @@
 # 🎬 Metacritic Movie Genre Analysis: Comedy vs Horror
 
 <p align="center">
-  <img src="plots/movies_header.png" alt="Movie Poster Collage" width="80%">
+  <img src="plots/metacritic_header.png" alt="Movie Poster Collage" width="80%">
 </p>
 
 [![R](https://img.shields.io/badge/R-4.3.1-blue.svg)](https://www.r-project.org/)  
@@ -44,7 +44,7 @@ This project explores and compares **Comedy** and **Horror** movie genres using 
 - Comedy movies released more consistently throughout the year.
 - Horror movies peak around **October**, suggesting a Halloween effect.
 
-![Release by Month](plots/release_by_month.png)
+![Release by Month](plots/number_daily_montlhy_movie_release_with_genre_averages_all.png)
 
 ---
 
@@ -54,7 +54,7 @@ This project explores and compares **Comedy** and **Horror** movie genres using 
 - **Horror** average: ~51  
 - **T-test** confirmed significant difference.
 
-![Metascore Boxplot](plots/metascore_boxplot.png)
+![Metascore Boxplot](plots/metascore_comparison_all.png)
 
 ---
 
@@ -63,19 +63,18 @@ This project explores and compares **Comedy** and **Horror** movie genres using 
 - **Comedy Top Words**: life, love, wedding, quirky, ensemble  
 - **Horror Top Words**: escape, killer, dark, infected, occult
 
-![Wordcloud Comedy](plots/wordcloud_comedy.png)
-![Wordcloud Horror](plots/wordcloud_horror.png)
+![Wordcloud Comedy](plots/wordcloud2_comedy_all.png)
+![Wordcloud Horror](plots/wordcloud2_horror_all.png)
 
-![TF-IDF](plots/tfidf_comparison.png)
+![TF-IDF](plots/tfidf_words_all.png)
 
 ---
 
 ### ❤️ 5. NRC Sentiment Analysis
 
-- Both genres skew **negative**, but Horror has more **fear** and **sadness**  
-- Comedy leans more toward **joy**, **surprise**, and **anticipation**
+- Both genres skew **negative**, but Horror has more negative value 
 
-![NRC Sentiment Comparison](plots/nrc_sentiment_mirrored.png)
+![NRC Sentiment Comparison](plots/bing_sentiment_all.png)
 
 ---
 
@@ -84,8 +83,7 @@ This project explores and compares **Comedy** and **Horror** movie genres using 
 - ARIMA models forecast a **slight drop** in number of movies
 - Metascore projected to **increase** gradually for both genres
 
-![Forecasting Movie Count](plots/movie_count_forecast.png)
-![Forecasting Metascore](plots/metascore_forecast.png)
+![Forecasting Metascore](plots/forecast_number_movei_average_metascore_all.png)
 
 ---
 
