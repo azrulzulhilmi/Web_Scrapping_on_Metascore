@@ -1,2 +1,93 @@
-# Web_Scrapping_on_Metascore
+# 🎬 Metacritic Movie Genre Analysis: Comedy vs Horror
+
+<p align="center">
+  <img src="plots/movies_header.png" alt="Movie Poster Collage" width="80%">
+</p>
+
+[![R](https://img.shields.io/badge/R-4.3.1-blue.svg)](https://www.r-project.org/)  
+[![Tidyverse](https://img.shields.io/badge/Libraries-Tidyverse%20%26%20ggplot2-green)](https://www.tidyverse.org/)  
+[![License: Academic](https://img.shields.io/badge/License-Academic-lightgrey.svg)](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)  
+[![Platform](https://img.shields.io/badge/Platform-RStudio-orange.svg)](https://posit.co/)
+
+---
+
+## 📌 Overview
+
+This project explores and compares **Comedy** and **Horror** movie genres using web-scraped data from [Metacritic.com](https://www.metacritic.com). It integrates **web scraping**, **text mining**, **sentiment analysis**, and **time series forecasting** to uncover genre-specific patterns in movie content, release timing, reception, and emotional tone.
+
+---
+
+## 🧰 Methods Used
+
+- **Web Scraping**: `rvest`, `httr`
+- **Text Cleaning**: `tidytext`, `tm`, `stringr`
+- **Sentiment Analysis**: `syuzhet`, `textdata` (NRC lexicon)
+- **Visualization**: `ggplot2`, `wordcloud`, `facet_wrap`, `coord_flip`
+- **Forecasting**: `forecast`, `fpp2`, `ARIMA`
+
+---
+
+## 📊 Key Insights
+
+### 🎬 1. Genre Composition
+
+- Total Movies Scraped:  
+  - **Comedy**: 8088  
+  - **Horror**: 3048
+
+- Missing `Metascore`: Mostly newer releases lacking critic reviews.
+
+---
+
+### 📅 2. Release Patterns
+
+- Comedy movies released more consistently throughout the year.
+- Horror movies peak around **October**, suggesting a Halloween effect.
+
+![Release by Month](plots/release_by_month.png)
+
+---
+
+### 🧪 3. Metascore Comparison
+
+- **Comedy** average: ~54  
+- **Horror** average: ~51  
+- **T-test** confirmed significant difference.
+
+![Metascore Boxplot](plots/metascore_boxplot.png)
+
+---
+
+### 🔠 4. Word Frequency & TF-IDF
+
+- **Comedy Top Words**: life, love, wedding, quirky, ensemble  
+- **Horror Top Words**: escape, killer, dark, infected, occult
+
+![Wordcloud Comedy](plots/wordcloud_comedy.png)
+![Wordcloud Horror](plots/wordcloud_horror.png)
+
+![TF-IDF](plots/tfidf_comparison.png)
+
+---
+
+### ❤️ 5. NRC Sentiment Analysis
+
+- Both genres skew **negative**, but Horror has more **fear** and **sadness**  
+- Comedy leans more toward **joy**, **surprise**, and **anticipation**
+
+![NRC Sentiment Comparison](plots/nrc_sentiment_mirrored.png)
+
+---
+
+### 🔮 6. Forecasting
+
+- ARIMA models forecast a **slight drop** in number of movies
+- Metascore projected to **increase** gradually for both genres
+
+![Forecasting Movie Count](plots/movie_count_forecast.png)
+![Forecasting Metascore](plots/metascore_forecast.png)
+
+---
+
+## 📂 Folder Structure
 
